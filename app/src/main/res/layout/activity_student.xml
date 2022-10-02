@@ -10,17 +10,17 @@
 
     <TextView
         android:id="@+id/outBtn"
-        android:layout_width="343dp"
-        android:layout_height="56dp"
+        android:layout_width="302dp"
+        android:layout_height="55dp"
         android:text="Hello  "
         android:textColor="#000000"
         android:textSize="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintHorizontal_bias="0.522"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.336" />
+        app:layout_constraintVertical_bias="0.365" />
 
     <EditText
         android:id="@+id/addname"
@@ -32,9 +32,10 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.511"
+        app:layout_constraintVertical_bias="0.593"
         tools:ignore="TouchTargetSizeCheck">
 
     </EditText>
@@ -76,5 +77,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.924" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="156dp"
+        android:layout_height="92dp"
+        android:contentDescription="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189"
+        app:srcCompat="@drawable/gift" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,7 +16,7 @@ class Student : AppCompatActivity() {
         val input = intent.getStringExtra("USER")
 
         val textView = findViewById<TextView>(R.id.View1)
-        val sms = " $input , You an chance to win a git. You can Buy a ticket"
+        val sms = " $input , You have an chance to win a git. You have to Buy a ticket by adding your name on Ticket"
 
         textView.text = sms
 
@@ -30,7 +30,7 @@ class Student : AppCompatActivity() {
             val random = Random.Default
             val randomName = random.nextInt(name.count())
 
-            val message = "${name[randomName]}, You have own ! Clilck git icon to get gift"
+            val message = "${name[randomName]}, You have own ! Clilck gift icon to get gift"
             output.text = message
         }
 
@@ -38,7 +38,7 @@ class Student : AppCompatActivity() {
             val names = addName.text.toString()
 
             if (names == "") {
-                Toast.makeText(this@Student, "You Must have to inter any name", Toast.LENGTH_SHORT)
+                Toast.makeText(this@Student, "You Must have to Enter your name", Toast.LENGTH_SHORT)
                     .show()
             } else {
                 name.add(names)
