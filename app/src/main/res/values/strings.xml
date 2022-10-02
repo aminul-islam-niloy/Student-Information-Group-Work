@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">INFO</string>
+    <string name="button">Button</string>
+    <string name="this_is_top">This is Top</string>
+    <string name="this_is_second_top">This is Second Top</string>
+</resources>
